@@ -10,7 +10,7 @@ LABEL org.label-schema.vcs-ref=$VCS_REF \
       org.label-schema.build-date=$BUILD_DATE \
       org.label-schema.docker.dockerfile="/Dockerfile"
 
-ENV HELM_VERSION v2.5.0
+ENV HELM_VERSION v2.7.2
 ENV HELM_FILENAME helm-${HELM_VERSION}-linux-amd64.tar.gz
 
 RUN apt-get update && apt-get install --no-install-recommends -y \
